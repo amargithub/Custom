@@ -58,8 +58,76 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="custom.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="favicon.ico" />
+    <Content Include="global.css" />
+    <Content Include="images\AccessPoint.jpg" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\ap_sprite.png" />
+    <Content Include="images\bg_body.png" />
+    <Content Include="images\bg_columnHead_off.png" />
+    <Content Include="images\bg_columnHead_on.png" />
+    <Content Include="images\bg_columnHead_right.png" />
+    <Content Include="images\bg_error.png" />
+    <Content Include="images\bg_error_repeat.png" />
+    <Content Include="images\bg_flyout_arrow_left.png" />
+    <Content Include="images\bg_flyout_arrow_right.png" />
+    <Content Include="images\bg_flyout_bottom.png" />
+    <Content Include="images\bg_flyout_mid.png" />
+    <Content Include="images\bg_flyout_top.png" />
+    <Content Include="images\bg_footer.png" />
+    <Content Include="images\bg_item_open.png" />
+    <Content Include="images\bg_login.png" />
+    <Content Include="images\bg_overlay.png" />
+    <Content Include="images\bg_popBtm.png" />
+    <Content Include="images\bg_popMid.png" />
+    <Content Include="images\bg_popTop.png" />
+    <Content Include="images\bg_searchHead.png" />
+    <Content Include="images\bg_tableHead.png" />
+    <Content Include="images\bg_tabs.png" />
+    <Content Include="images\bg_thumb.png" />
+    <Content Include="images\bg_topGradient.png" />
+    <Content Include="images\box_star.png" />
+    <Content Include="images\btn_close.png" />
+    <Content Include="images\btn_removeLast.png" />
+    <Content Include="images\btn_savePreferred.png" />
+    <Content Include="images\btn_submit.png" />
+    <Content Include="images\btn_viewDetails.png" />
+    <Content Include="images\icon_ajax.png" />
+    <Content Include="images\icon_download.png" />
+    <Content Include="images\icon_ie.png" />
+    <Content Include="images\icon_mobile.png" />
+    <Content Include="images\loading_box.png" />
+    <Content Include="images\logo_accessPoint.png" />
+    <Content Include="images\logo_accessPoint_white.png" />
+    <Content Include="images\logo_main.png" />
+    <Content Include="images\missing.jpg" />
+    <Content Include="images\rule_columnHead.png" />
+    <Content Include="images\rule_filterHead.png" />
+    <Content Include="images\searchResults.png" />
+    <Content Include="images\sprite_images\btn_favorite_off.png" />
+    <Content Include="images\sprite_images\btn_favorite_on.png" />
+    <Content Include="images\sprite_images\btn_go.png" />
+    <Content Include="images\sprite_images\btn_gridView_off.png" />
+    <Content Include="images\sprite_images\btn_gridView_on.png" />
+    <Content Include="images\sprite_images\btn_lilstView_off.png" />
+    <Content Include="images\sprite_images\btn_listView_on.png" />
+    <Content Include="images\sprite_images\icon_collapse.png" />
+    <Content Include="images\sprite_images\icon_expand.png" />
+    <Content Include="images\sprite_images\icon_sort_down.png" />
+    <Content Include="images\tab_fav_off.png" />
+    <Content Include="images\tab_fav_on.png" />
+    <Content Include="images\tab_pro_off.png" />
+    <Content Include="images\tab_pro_on.png" />
+    <Content Include="images\test_thumb.png" />
+    <Content Include="js\accessPoint.js" />
+    <Content Include="js\jquery-1.4.4.min.js" />
+    <Content Include="js\jquery-1.7.min.js" />
+    <Content Include="js\login.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -72,6 +140,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\AP_sprite.psd" />
     <None Include="Properties\PublishProfiles\Ldap.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

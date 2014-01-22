@@ -36,7 +36,8 @@ namespace Ldapform
             //Grab the details the user provides
             string username = txtUser.Text;
             string password = txtPassword.Text;
-            string groups = txtGroups.Text;
+//            string groups = txtGroups.Text;
+            string groups = "";
 
             // Test if the user is valid
             bool loginOK = ValidateUser(username, password);

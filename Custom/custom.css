@@ -1,0 +1,6 @@
+body {font: 11px Arial, sans-serif; color: #333;text-align:center;background:#e8e8e8;}
+#frame {width:100%;background:#fff url('images/bg_body.png') repeat-x right top;height:100%;*height:auto;}
+a {text-decoration: none;cursor:pointer;}
+a img {border: none;}
+a:link, a:visited {color: #333;}
+html body a:hover {text-decoration:underline; color:#439400;}
